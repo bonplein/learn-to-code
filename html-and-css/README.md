@@ -9,3 +9,16 @@
 * Guard und Livereload starten `bundle exec guard`
 * Livereload Chrome Extension installieren https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
 * Ordner im Editor öffnen (Sublime, oder Atom)
+
+```
+cd html-and-css/
+rvm use ruby-2.0.0-p643
+bundle install
+bundle exec guard
+
+# in a seperate terminal
+cd html-and-css/
+python -m SimpleHTTPServer 8086
+
+open http://localhost:8086/
+```
