@@ -18,7 +18,7 @@ bundle exec guard
 
 # in a seperate terminal
 cd html-and-css/
-python -m SimpleHTTPServer 8086
+bundle exec ruby serve.rb
 
-open http://localhost:8086/
+open http://localhost:8080/index.html
 ```
