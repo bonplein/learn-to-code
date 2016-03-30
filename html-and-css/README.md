@@ -16,9 +16,5 @@ rvm use ruby-2.0.0-p643
 bundle install
 bundle exec guard
 
-# in a seperate terminal
-cd html-and-css/
-bundle exec ruby serve.rb
-
 open http://localhost:8080/index.html
 ```
