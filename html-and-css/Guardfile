@@ -43,4 +43,7 @@ group :development do
     watch(%r{.+\.(css|js|html?|php|inc|theme)$})
   end
 
+  guard 'shotgun', :server => 'thin' do
+  end
+
 end
