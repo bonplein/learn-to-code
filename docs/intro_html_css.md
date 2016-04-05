@@ -30,14 +30,19 @@
 * "Selfclosing" `<img src="..." />`
 
 # Elemente 2
-| Element | Beschreibung | | Element | Beschreibung |
-| ------- | ------------ | | ------- | ------------ |
-| `<a></a>`| Link  | | `<li></li>`| Link  |
-| `<div></div>`| "Container"  | | `<img />`| Bilder  |
-| `<p></p>`| Paragraph  | | `<table></table>`| Tabellen  |
-| `<h1></h1>`| Überschrift  | | `<form></form>`| Formular|
-| `<ul></ul>`| Ungeordnete Liste  | | `<br />`| Zeilenumbruch  |
-| `<ol></ol>`| Geordnete Liste  | | | | |
+| Element | Beschreibung |
+| ------- | ------------ | 
+| `<a></a>`| Link  | 
+| `<div></div>`| "Container"  | 
+| `<p></p>`| Paragraph  | 
+| `<h1></h1>`| Überschrift  | 
+| `<ul></ul>`| Ungeordnete Liste  |  
+| `<ol></ol>`| Geordnete Liste  | 
+| `<li></li>`| Link  |
+| `<img />`| Bilder  |
+| `<table></table>`| Tabellen  |
+| `<form></form>`| Formular|
+| `<br />`| Zeilenumbruch  |
 
 # Styling
 ```html 
